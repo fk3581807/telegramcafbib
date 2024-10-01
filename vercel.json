@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "bot.py",  // Change this to your main Python file name
+      "src": "bot.py", 
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "bot.py"  // Change this to your main Python file name
+      "dest": "bot.py"
     }
   ]
 }
