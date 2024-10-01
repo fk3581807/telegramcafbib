@@ -11,7 +11,7 @@ SHAREUS_API_KEY = "N5WHqC160Uh4Mdp2WrRjieFPfEg1"
 # Hardcoded bot token
 BOT_TOKEN = "7309605302:AAEekZyy9RUL_j5osCTg-vGu1D3R8m8iucc"
 # Set your webhook URL here
-WEBHOOK_URL = f"https://<your-vercel-project-name>.vercel.app/{BOT_TOKEN}"
+WEBHOOK_URL = f"https://telegramcafbib.vercel.app/{BOT_TOKEN}"
 
 app = Flask(__name__)
 
